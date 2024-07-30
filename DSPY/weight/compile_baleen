@@ -1,0 +1,412 @@
+{
+  "generate_query[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "produce the query. We know that \"Everything Has Changed\" is a song from an album, so we need to find the name of the album. Once we have the name of the album, we can search for the record label that released it.",
+        "query": "\"Everything Has Changed\" album record label"
+      },
+      {
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "answer": "The Empire State Building",
+        "dspy_uuid": "78e044f8-11c1-431f-b1d5-62d91b7284e1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "f0eb24d5-fe1b-4ad3-9672-c0afe6454b31",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which company distributed this 1977 American animated film produced by Walt Disney Productions for which Sherman Brothers wrote songs?",
+        "answer": "Buena Vista Distribution",
+        "dspy_uuid": "a603dd90-22fa-4969-8978-223778fa81d3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Victorians - Their Story In Pictures is a documentary series written by an author born in what year?",
+        "answer": "1950",
+        "dspy_uuid": "39515ace-99e1-4bf8-914d-b83767cfb2ee",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "08e7df9c-4f7b-4feb-a1ed-d83f218188fd",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "answer": "Self",
+        "dspy_uuid": "ac09ae48-a586-4a2d-bb44-51e5c062367b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "122a70cf-4cb8-4860-b134-2336f7809d3d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "37d92819-dfbd-4fa3-819b-6a4b9f01c48d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "d475bbc0-f341-429a-9c7b-b3502fa329d9",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "e78c8b45-61d6-46bb-8974-98cb4223b18f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "This American guitarist best known for her work with the Iron Maidens is an ancestor of a composer who was known as what?",
+        "answer": "The Waltz King",
+        "dspy_uuid": "0cbc5412-24f3-4f1b-857d-f37948d3ceb0",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "2ecc5c05-25c9-435b-8986-b595555a4907",
+        "dspy_split": "train"
+      },
+      {
+        "question": "On the coast of what ocean is the birthplace of Diogal Sakho?",
+        "answer": "Atlantic",
+        "dspy_uuid": "537b4b0c-183e-4a22-94e6-54947a24e65d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "13d525ab-92a0-4200-b05a-e21ec8a8539b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "e9d37edc-c449-4246-a044-72db4786371f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "d796052a-3c1d-41b1-8dae-98a8459b4d97",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "15bfb311-4f10-47cc-8d6b-e838221b1064",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "answer": "Tae Kwon Do Times",
+        "dspy_uuid": "1785619b-cf74-4099-98b9-d9e0a62cf988",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "e8405268-6244-45f6-a367-916cc097b12d",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "generate_query[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "Everything Must Change | Everything Must Change is the debut album by singer Randy Crawford released in 1976 on the Warner Bros. label. It was recorded and mixed at Hollywood Sound Recorders except \"I'm Easy\" and \"I've Never Been To Me\", which, along with all horns and strings, were recorded at The Hit Factory, New York City, and engineered by Kevin Herron with assistant engineer Ted Spencer. In addition \"Everything Must Change\" and \"Gonna Give Lovin' A Try\" were recorded live at the World Jazz Association's first recorded concert at the Shrine Auditorium in Los Angeles in November 1975.",
+          "Changes (A Cursive Memory album) | Changes is an album by A Cursive Memory. It was released February 19, 2008 by Vagrant Records. The singles from the album were \"Everything\" and \"Perfect Company\". The song \"Everything\" was included in the game .",
+          "Everything Has Changed | \"Everything Has Changed\" is a song written and performed by American singer-songwriter Taylor Swift and English singer-songwriter Ed Sheeran, taken from Swift's fourth studio album, \"Red\" (2012). Produced by Butch Walker, the track was released as the sixth single from the album on July 16, 2013. \"Everything Has Changed\" is a guitar ballad combining folk and pop genres about \"wanting to get to know a new lover better\"."
+        ],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "find the answer to this question. We know that \"Everything Has Changed\" is a song from Taylor Swift's album \"Red\" and that it was released as a single in 2013. We also know that the album was released under a record label. Therefore, we need to search for the record label that released \"Red\".",
+        "query": "What record label released Taylor Swift's album \"Red\"?"
+      },
+      {
+        "question": "The Victorians - Their Story In Pictures is a documentary series written by an author born in what year?",
+        "answer": "1950",
+        "dspy_uuid": "39515ace-99e1-4bf8-914d-b83767cfb2ee",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which company distributed this 1977 American animated film produced by Walt Disney Productions for which Sherman Brothers wrote songs?",
+        "answer": "Buena Vista Distribution",
+        "dspy_uuid": "a603dd90-22fa-4969-8978-223778fa81d3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "This American guitarist best known for her work with the Iron Maidens is an ancestor of a composer who was known as what?",
+        "answer": "The Waltz King",
+        "dspy_uuid": "0cbc5412-24f3-4f1b-857d-f37948d3ceb0",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "d796052a-3c1d-41b1-8dae-98a8459b4d97",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "d475bbc0-f341-429a-9c7b-b3502fa329d9",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "f0eb24d5-fe1b-4ad3-9672-c0afe6454b31",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "answer": "Self",
+        "dspy_uuid": "ac09ae48-a586-4a2d-bb44-51e5c062367b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "122a70cf-4cb8-4860-b134-2336f7809d3d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "On the coast of what ocean is the birthplace of Diogal Sakho?",
+        "answer": "Atlantic",
+        "dspy_uuid": "537b4b0c-183e-4a22-94e6-54947a24e65d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "e78c8b45-61d6-46bb-8974-98cb4223b18f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "e8405268-6244-45f6-a367-916cc097b12d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "37d92819-dfbd-4fa3-819b-6a4b9f01c48d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "e9d37edc-c449-4246-a044-72db4786371f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "08e7df9c-4f7b-4feb-a1ed-d83f218188fd",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "answer": "Tae Kwon Do Times",
+        "dspy_uuid": "1785619b-cf74-4099-98b9-d9e0a62cf988",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "answer": "The Empire State Building",
+        "dspy_uuid": "78e044f8-11c1-431f-b1d5-62d91b7284e1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "15bfb311-4f10-47cc-8d6b-e838221b1064",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "2ecc5c05-25c9-435b-8986-b595555a4907",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "13d525ab-92a0-4200-b05a-e21ec8a8539b",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "retrieve": {
+    "k": 3
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "Everything Must Change | Everything Must Change is the debut album by singer Randy Crawford released in 1976 on the Warner Bros. label. It was recorded and mixed at Hollywood Sound Recorders except \"I'm Easy\" and \"I've Never Been To Me\", which, along with all horns and strings, were recorded at The Hit Factory, New York City, and engineered by Kevin Herron with assistant engineer Ted Spencer. In addition \"Everything Must Change\" and \"Gonna Give Lovin' A Try\" were recorded live at the World Jazz Association's first recorded concert at the Shrine Auditorium in Los Angeles in November 1975.",
+          "Changes (A Cursive Memory album) | Changes is an album by A Cursive Memory. It was released February 19, 2008 by Vagrant Records. The singles from the album were \"Everything\" and \"Perfect Company\". The song \"Everything\" was included in the game .",
+          "Everything Has Changed | \"Everything Has Changed\" is a song written and performed by American singer-songwriter Taylor Swift and English singer-songwriter Ed Sheeran, taken from Swift's fourth studio album, \"Red\" (2012). Produced by Butch Walker, the track was released as the sixth single from the album on July 16, 2013. \"Everything Has Changed\" is a guitar ballad combining folk and pop genres about \"wanting to get to know a new lover better\".",
+          "Red (Taylor Swift album) | Red is the fourth studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records, as the follow-up to her third studio album, \"Speak Now\". The album title was inspired by the \"semi-toxic relationships\" that Swift experienced during the process of conceiving this album, which Swift described the emotions she felt as \"red emotions\" due to their intense and tumultuous nature. \"Red\" touches on Swift's signature themes of love and heartbreak, however, from a more mature perspective while exploring other themes such as fame and the pressure of being in the limelight. The album features collaborations with producers and guest artists such as Gary Lightbody of Snow Patrol and Ed Sheeran and is noted for Swift's experimentation with new musical genres. Swift completed The Red Tour in support of the album on June 12, 2014, which became the highest-grossing tour of all time by a country artist, grossing over $150 million.",
+          "1989 (Taylor Swift album) | 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records. Swift began composing the album following release of previous studio effort, \"Red\" (2012). Over the course of the two-year songwriting period, she collaborated with producers Max Martin and Shellback\u2014Martin served as the album's executive producer alongside Swift. The album's title was named after the singer's birth year and inspired by the pop music of the 1980s.",
+          "Red (Taylor Swift song) | \"Red\" is a song recorded by American singer-songwriter Taylor Swift for her fourth studio album of the same name (2012). It was released on October 2, 2012, in the US by Big Machine Records as the second promotional single from \"Red\" in 2012 and serves as the album's fifth single on June 21, 2013. It was part of the tracks released during the four weeks preceding the release of the album. Musically, \"Red\" is a country song, and its lyrics uses colors and metaphors to describe an intense and tumultuous relationship."
+        ],
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "rationale": "produce the answer. We know that \"Everything Has Changed\" is a song from Taylor Swift's fourth studio album \"Red\" (2012). According to context [4], \"Red\" was released by Big Machine Records.",
+        "answer": "Big Machine Records."
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "e9d37edc-c449-4246-a044-72db4786371f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Victorians - Their Story In Pictures is a documentary series written by an author born in what year?",
+        "answer": "1950",
+        "dspy_uuid": "39515ace-99e1-4bf8-914d-b83767cfb2ee",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "answer": "The Empire State Building",
+        "dspy_uuid": "78e044f8-11c1-431f-b1d5-62d91b7284e1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "e8405268-6244-45f6-a367-916cc097b12d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Samantha Cristoforetti and Mark Shuttleworth are both best known for being first in their field to go where? ",
+        "answer": "space",
+        "dspy_uuid": "d796052a-3c1d-41b1-8dae-98a8459b4d97",
+        "dspy_split": "train"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "37d92819-dfbd-4fa3-819b-6a4b9f01c48d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "answer": "Rosario Dawson",
+        "dspy_uuid": "f0eb24d5-fe1b-4ad3-9672-c0afe6454b31",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "08e7df9c-4f7b-4feb-a1ed-d83f218188fd",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which company distributed this 1977 American animated film produced by Walt Disney Productions for which Sherman Brothers wrote songs?",
+        "answer": "Buena Vista Distribution",
+        "dspy_uuid": "a603dd90-22fa-4969-8978-223778fa81d3",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "answer": "Tae Kwon Do Times",
+        "dspy_uuid": "1785619b-cf74-4099-98b9-d9e0a62cf988",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "e78c8b45-61d6-46bb-8974-98cb4223b18f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "On the coast of what ocean is the birthplace of Diogal Sakho?",
+        "answer": "Atlantic",
+        "dspy_uuid": "537b4b0c-183e-4a22-94e6-54947a24e65d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "answer": "Self",
+        "dspy_uuid": "ac09ae48-a586-4a2d-bb44-51e5c062367b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "15bfb311-4f10-47cc-8d6b-e838221b1064",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "d475bbc0-f341-429a-9c7b-b3502fa329d9",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "answer": "Kerry Condon",
+        "dspy_uuid": "122a70cf-4cb8-4860-b134-2336f7809d3d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "2ecc5c05-25c9-435b-8986-b595555a4907",
+        "dspy_split": "train"
+      },
+      {
+        "question": "This American guitarist best known for her work with the Iron Maidens is an ancestor of a composer who was known as what?",
+        "answer": "The Waltz King",
+        "dspy_uuid": "0cbc5412-24f3-4f1b-857d-f37948d3ceb0",
+        "dspy_split": "train"
+      },
+      {
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "answer": "Bill Murray",
+        "dspy_uuid": "13d525ab-92a0-4200-b05a-e21ec8a8539b",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Answer questions with short factoid answers.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Answer questions with short factoid answers.",
+    "extended_signature_prefix": "Answer:"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "retrieve": {
+    "k": 3
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "Candace Kita | Kita's first role was as a news anchor in the 1991 movie \"Stealth Hunters\". Kita's first recurring television role was in Fox's \"Masked Rider\", from 1995 to 1996. She appeared as a series regular lead in all 40 episodes. Kita also portrayed a frantic stewardess in a music video directed by Mark Pellington for the British group, Catherine Wheel, titled, \"Waydown\" in 1995. In 1996, Kita also appeared in the film \"Barb Wire\" (1996) and guest starred on \"The Wayans Bros.\". She also guest starred in \"Miriam Teitelbaum: Homicide\" with \"Saturday Night Live\" alumni Nora Dunn, \"Wall To Wall Records\" with Jordan Bridges, \"Even Stevens\", \"Felicity\" with Keri Russell, \"V.I.P.\" with Pamela Anderson, \"Girlfriends\", \"The Sweet Spot\" with Bill Murray, and \"Movies at Our House\". She also had recurring roles on the FX spoof, \"Son of the Beach\" from 2001 to 2002, ABC-Family's \"Dance Fever\" and Oxygen Network's \"Running with Scissors\". Kita also appeared in the films \"Little Heroes\" (2002) and \"Rennie's Landing\" (2001).",
+          "Jilly Kitzinger | Jilly Kitzinger is a fictional character in the science fiction series \"Torchwood\", portrayed by American actress Lauren Ambrose. The character was promoted as one of five new main characters to join \"Torchwood\" in its fourth series, \"\" (2011), as part of a new co-production between \"Torchwood\"' s British network, BBC One, and its American financiers on US premium television network Starz. Ambrose appears in seven of the ten episodes, and is credited as a \"special guest star\" throughout. Whilst reaction to the serial was mixed, Ambrose' portrayal was often singled out by critics for particular praise and in 2012 she received a Saturn Award nomination for Best Supporting Actress on Television.",
+          "Candace Brown | Candace June Brown (born June 15, 1980) is an American actress and comedian best known for her work on shows such as \"Grey's Anatomy\", \"Desperate Housewives\", \"Head Case\", The \"Wizards Of Waverly Place\". In 2011, she joined the guest cast for \"Torchwood\"' s fourth series' \"\", airing on BBC One in the United Kingdom and premium television network Starz."
+        ],
+        "question": "which  American actor was Candace Kita  guest starred with ",
+        "rationale": "find out which American actor Candace Kita guest starred with. We need to look at the list of shows she appeared in and find the one that features an American actor.",
+        "answer": "Bill Murray"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "Tae Kwon Do Times | Tae Kwon Do Times is a magazine devoted to the martial art of taekwondo, and is published in the United States of America. While the title suggests that it focuses on taekwondo exclusively, the magazine also covers other Korean martial arts. \"Tae Kwon Do Times\" has published articles by a wide range of authors, including He-Young Kimm, Thomas Kurz, Scott Shaw, and Mark Van Schuyver.",
+          "Kwon Tae-man | Kwon Tae-man (born 1941) was an early Korean hapkido practitioner and a pioneer of the art, first in Korea and then in the United States. He formed one of the earliest dojang's for hapkido in the United States in Torrance, California, and has been featured in many magazine articles promoting the art.",
+          "Hee Il Cho | Cho Hee Il (born October 13, 1940) is a prominent Korean-American master of taekwondo, holding the rank of 9th \"dan\" in the martial art. He has written 11 martial art books, produced 70 martial art training videos, and has appeared on more than 70 martial arts magazine covers. Cho won several national and international competitions as a taekwondo competitor, and has appeared in several films, including \"Fight to Win\", \"Best of the Best\", \"Bloodsport II\", and \"Bloodsport III\". He founded the Action International Martial Arts Association (AIMAA) in 1980, and is its President. Cho is a member of both \"Black Belt\" magazine's Hall of Fame and \"Tae Kwon Do Times\" magazine's Hall of Fame."
+        ],
+        "question": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+        "rationale": "produce the answer. We know that Tae Kwon Do Times is a magazine devoted to martial arts, including taekwondo and other Korean martial arts. We also know that it has published articles by Scott Shaw. On the other hand, Southwest Art is a magazine focused on art, not martial arts. Therefore, the answer is Tae Kwon Do Times.",
+        "answer": "Tae Kwon Do Times."
+      },
+      {
+        "augmented": true,
+        "context": [
+          "Rosario Dawson | Rosario Isabel Dawson (born May 9, 1979) is an American actress, producer, singer, comic book writer, and political activist. She made her film debut in the 1995 teen drama \"Kids\". Her subsequent film roles include \"He Got Game\", \"Men in Black II\", \"25th Hour\", \"Rent\", \"Sin City\", \"Death Proof\", \"Seven Pounds\", \"\", and \"Top Five\". Dawson has also provided voice-over work for Disney and DC.",
+          "Sarai Gonzalez | Sarai Isaura Gonzalez (born 2005) is an American Latina child actress who made her professional debut at the age of 11 on the Spanish-language \"\"Soy Yo\"\" (\"That's Me\") music video by Bomba Est\u00e9reo. Cast as a \"nerdy\" tween with a \"sassy\" and \"confident\" attitude, her performance turned her into a \"Latina icon\" for \"female empowerment, identity and self-worth\". She subsequently appeared in two get out the vote videos for Latinos in advance of the 2016 United States elections.",
+          "Gabriela (2001 film) | Gabriela is a 2001 American romance film, starring Seidy Lopez in the title role alongside Jaime Gomez as her admirer Mike. The film has been cited as an inspiration behind the Premiere Weekend Club, which supports Latino film-making."
+        ],
+        "question": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+        "rationale": "produce the answer. We need to identify the American actress who made their film debut in the 1995 teen drama \"Kids\" and then determine if they were the co-founder of Voto Latino.",
+        "answer": "Rosario Dawson"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "Kerry Condon | Kerry Condon (born 4 January 1983) is an Irish television and film actress, best known for her role as Octavia of the Julii in the HBO\/BBC series \"Rome,\" as Stacey Ehrmantraut in AMC's \"Better Call Saul\" and as the voice of F.R.I.D.A.Y. in various films in the Marvel Cinematic Universe. She is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\"",
+          "Corona Riccardo | Corona Riccardo (c. 1878October 15, 1917) was an Italian born American actress who had a brief Broadway stage career before leaving to become a wife and mother. Born in Naples she came to acting in 1894 playing a Mexican girl in a play at the Empire Theatre. Wilson Barrett engaged her for a role in his play \"The Sign of the Cross\" which he took on tour of the United States. Riccardo played the role of Ancaria and later played Berenice in the same play. Robert B. Mantell in 1898 who struck by her beauty also cast her in two Shakespeare plays, \"Romeo and Juliet\" and \"Othello\". Author Lewis Strang writing in 1899 said Riccardo was the most promising actress in America at the time. Towards the end of 1898 Mantell chose her for another Shakespeare part, Ophelia im Hamlet. Afterwards she was due to join Augustin Daly's Theatre Company but Daly died in 1899. In 1899 she gained her biggest fame by playing Iras in the first stage production of Ben-Hur.",
+          "Judi Dench | Dame Judith Olivia \"Judi\" Dench, {'1': \", '2': \", '3': \", '4': \"} (born 9 December 1934) is an English actress and author. Dench made her professional debut in 1957 with the Old Vic Company. Over the following few years, she performed in several of Shakespeare's plays in such roles as Ophelia in \"Hamlet\", Juliet in \"Romeo and Juliet\", and Lady Macbeth in \"Macbeth\". Although most of her work during this period was in theatre, she also branched into film work and won a BAFTA Award as Most Promising Newcomer. She drew strong reviews for her leading role in the musical \"Cabaret\" in 1968."
+        ],
+        "question": "Who acted in the shot film The Shore and is also the youngest actress ever to play Ophelia in a Royal Shakespeare Company production of \"Hamlet.\" ?",
+        "rationale": "produce the answer. We need to look for an actress who played Ophelia in a Royal Shakespeare Company production of \"Hamlet\" and also acted in the short film The Shore.",
+        "answer": "Kerry Condon"
+      },
+      {
+        "question": "At My Window was released by which American singer-songwriter?",
+        "answer": "John Townes Van Zandt",
+        "dspy_uuid": "37d92819-dfbd-4fa3-819b-6a4b9f01c48d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "\"Everything Has Changed\" is a song from an album released under which record label ?",
+        "answer": "Big Machine Records",
+        "dspy_uuid": "b87b4118-3490-4bdc-8149-1e37abdd5f61",
+        "dspy_split": "train"
+      },
+      {
+        "question": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+        "answer": "1874",
+        "dspy_uuid": "e8405268-6244-45f6-a367-916cc097b12d",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which Pakistani cricket umpire who won 3 consecutive ICC umpire of the year awards in 2009, 2010, and 2011 will be in the ICC World Twenty20?",
+        "answer": "Aleem Sarwar Dar",
+        "dspy_uuid": "2ecc5c05-25c9-435b-8986-b595555a4907",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Having the combination of excellent foot speed and bat speed helped Eric Davis, create what kind of outfield for the Los Angeles Dodgers? ",
+        "answer": "\"Outfield of Dreams\"",
+        "dspy_uuid": "d475bbc0-f341-429a-9c7b-b3502fa329d9",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Who is older, Aleksandr Danilovich Aleksandrov or Anatoly Fomenko?",
+        "answer": "Aleksandr Danilovich Aleksandrov",
+        "dspy_uuid": "e78c8b45-61d6-46bb-8974-98cb4223b18f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "The Organisation that allows a community to influence their operation or use and to enjoy the benefits arisingwas founded in what year?",
+        "answer": "2010",
+        "dspy_uuid": "15bfb311-4f10-47cc-8d6b-e838221b1064",
+        "dspy_split": "train"
+      },
+      {
+        "question": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+        "answer": "Operation Citadel",
+        "dspy_uuid": "e9d37edc-c449-4246-a044-72db4786371f",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which is taller, the Empire State Building or the Bank of America Tower?",
+        "answer": "The Empire State Building",
+        "dspy_uuid": "78e044f8-11c1-431f-b1d5-62d91b7284e1",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+        "answer": "Self",
+        "dspy_uuid": "ac09ae48-a586-4a2d-bb44-51e5c062367b",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Tombstone stared an actor born May 17, 1955 known as who?",
+        "answer": "Bill Paxton",
+        "dspy_uuid": "08e7df9c-4f7b-4feb-a1ed-d83f218188fd",
+        "dspy_split": "train"
+      },
+      {
+        "question": "Which company distributed this 1977 American animated film produced by Walt Disney Productions for which Sherman Brothers wrote songs?",
+        "answer": "Buena Vista Distribution",
+        "dspy_uuid": "a603dd90-22fa-4969-8978-223778fa81d3",
+        "dspy_split": "train"
+      }
+    ],
+    "signature_instructions": "Answer questions with short factoid answers.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Answer questions with short factoid answers.",
+    "extended_signature_prefix": "Answer:"
+  }
+}

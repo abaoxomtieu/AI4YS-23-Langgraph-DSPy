@@ -1,0 +1,35 @@
+{
+  "generate_query[0]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "generate_query[1]": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "signature_prefix": "Query:",
+    "extended_signature_instructions": "Write a simple search query that will help answer a complex question.",
+    "extended_signature_prefix": "Query:"
+  },
+  "retrieve": {
+    "k": 3
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Answer questions with short factoid answers.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Answer questions with short factoid answers.",
+    "extended_signature_prefix": "Answer:"
+  }
+}
